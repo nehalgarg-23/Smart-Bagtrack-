@@ -40,15 +40,6 @@
 
 ---
 
-## Circuit Diagram
-
-> Include this in the `/images` folder or insert it here if available.
-
-- GPS TX → NodeMCU D7 (SoftwareSerial RX)
-- RF Receiver trigger output → NodeMCU D1
-- NodeMCU powered via USB or Li-Po (through USB adapter)
-
----
 
 ## Telegram Commands
 
@@ -69,14 +60,4 @@
 
 ---
 
-## Setup Instructions
 
-1. Clone or download this repo.
-2. Open the `.ino` file using Arduino IDE.
-3. Install required libraries from Library Manager.
-4. Replace the following:
-   ```cpp
-   const char* ssid = "your-SSID";
-   const char* password = "your-WiFi-password";
-   const char* botToken = "your-Telegram-Bot-Token";
-   const char* chat_id = "your-chat-id";
